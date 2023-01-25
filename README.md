@@ -36,7 +36,7 @@ To conduct evaluation, please run our evaluation script:
 python eval.py --data {dataset} --embedding_path_node {path_to_emb_node} --embedding_path_link {path_to_emb_link}
 ```
 
-## Dependencies and Environents
+## Dependencies and Environments
 The package we use include:
     
     * DGL 0.9.0
