@@ -45,6 +45,18 @@ The package we use include:
 
 We aim at training our models on GPUs with 24 GB VRAM. Examplary bash scripts we provide should run without problems on 24 GB GPUs. 
 
+## Cite
+If you find this repository useful in your research, please cite our paper:
+
+```bibtex
+@article{ju2023multi,
+  title={Multi-task Self-supervised Graph Neural Networks Enable Stronger Task Generalization},
+  author={Ju, Mingxuan and Zhao, Tong and Wen, Qianlong and Yu, Wenhao and Shah, Neil and Ye, Yanfang and Zhang, Chuxu},
+  booktitle={International Conference on Learning Representations},
+  year={2023}
+}
+```
+
 ## Credit
 Some scripts about the pre-text tasks come from the [example directory from the official repository of DGL](https://github.com/dmlc/dgl/tree/master/examples/pytorch). And some data generation scripts for link prediction come from the [CFLP repo](https://github.com/DM2-ND/CFLP). 
 
