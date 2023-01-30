@@ -16,10 +16,10 @@ python hetero_graph_gen.py
 python link_gen.py
 ```
 
-Then to conduct multi-task self-supervised learning, we have prepared bash scripts in the ```bash``` directory. Training a ParetoGNN can be done by:
+Then to conduct multi-task self-supervised learning, we have prepared bash scripts in the ```scripts``` directory. Training a ParetoGNN can be done by:
 
 ```
-cd bash
+cd scripts
 
 \\ to generate node embeddings for node-level tasks like node classification, node clustering, and partition prediction
 bash ssnc_{dataset}.sh <GPU_ID> 
@@ -28,7 +28,7 @@ bash ssnc_{dataset}.sh <GPU_ID>
 bash link_{dataset}.sh <GPU_ID> 
 ```
 
-The node embeddings and the final model will be saved in the ```bash``` directory.
+The node embeddings and the final model will be saved in the ```scripts``` directory.
 
 To conduct evaluation, please run our evaluation script:
 
